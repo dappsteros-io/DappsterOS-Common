@@ -4,7 +4,7 @@
  *@LastEditTime: 2022-05-31 14:51:21
  *@FilePath: /DappsterOS/model/notify/application.go
  *@Description:
- *@Website: https://www.casaos.io
+ *@Website: https://www.dappster.io
  *Copyright (c) 2022 by icewhale, All Rights Reserved.
  */
 package notify

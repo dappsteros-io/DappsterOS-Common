@@ -13,7 +13,7 @@ import (
 )
 
 const (
-	DappsterOSURLFilename = "casaos.url"
+	DappsterOSURLFilename = "dappsteros.url"
 	APIDappsterOSNotify   = "/v1/notify"
 )
 

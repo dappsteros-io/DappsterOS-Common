@@ -13,14 +13,14 @@ import (
 )
 
 const (
-	LegacyDappsterOSServiceName = "casaos.service"
+	LegacyDappsterOSServiceName = "dappsteros.service"
 	configKeyUniqueToZero3x     = "USBAutoMount"
 	configKeyDBPath             = "DBPath"
 )
 
 var (
 	// this value will be updated at init() to actual config file path.
-	LegacyDappsterOSConfigFilePath = "/etc/casaos.conf"
+	LegacyDappsterOSConfigFilePath = "/etc/dappsteros.conf"
 
 	_configFile        *ini.File
 	_casaOSBinFilePath string
@@ -55,11 +55,11 @@ func init() {
 	execStart := key.Value()
 	texts := strings.Split(execStart, " ")
 
-	// locaste casaos binary.
+	// locaste dappsteros binary.
 	_casaOSBinFilePath = texts[0]
 
 	if _, err := os.Stat(_casaOSBinFilePath); os.IsNotExist(err) {
-		_casaOSBinFilePath, err = exec.LookPath("casaos")
+		_casaOSBinFilePath, err = exec.LookPath("dappsteros")
 
 		if err != nil {
 			return

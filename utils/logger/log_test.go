@@ -3,7 +3,7 @@ package logger_test
 import (
 	"testing"
 
-	"github.com/dappster-io/DappsterOS-Common/utils/logger"
+	"github.com/dappsteros-io/DappsterOS-Common/utils/logger"
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/zap/zapcore"
 )

@@ -13,7 +13,7 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/dappster-io/DappsterOS-Common/utils/jwt"
+	"github.com/dappsteros-io/DappsterOS-Common/utils/jwt"
 )
 
 const (

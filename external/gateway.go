@@ -12,8 +12,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/dappster-io/DappsterOS-Common/model"
-	http2 "github.com/dappster-io/DappsterOS-Common/utils/http"
+	"github.com/dappsteros-io/DappsterOS-Common/model"
+	http2 "github.com/dappsteros-io/DappsterOS-Common/utils/http"
 )
 
 const (

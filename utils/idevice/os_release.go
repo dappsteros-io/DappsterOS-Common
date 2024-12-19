@@ -1,7 +1,7 @@
 package idevice
 
 import (
-	"github.com/dappster-io/DappsterOS-Common/utils/file"
+	"github.com/dappsteros-io/DappsterOS-Common/utils/file"
 )
 
 func GetOSRelease(name []string) (map[string]string, error) {

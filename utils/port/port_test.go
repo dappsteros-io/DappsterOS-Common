@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/dappster-io/DappsterOS-Common/utils/port"
+	"github.com/dappsteros-io/DappsterOS-Common/utils/port"
 	"github.com/stretchr/testify/assert"
 )
 

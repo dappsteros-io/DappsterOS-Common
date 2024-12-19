@@ -1,4 +1,4 @@
-module github.com/dappster-io/DappsterOS-Common
+module github.com/dappsteros-io/DappsterOS-Common
 
 go 1.21
 

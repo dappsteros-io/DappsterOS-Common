@@ -6,7 +6,7 @@ import (
 	"os"
 	"time"
 
-	http2 "github.com/dappster-io/DappsterOS-Common/utils/http"
+	http2 "github.com/dappsteros-io/DappsterOS-Common/utils/http"
 )
 
 func getAddress(addressFile string) (string, error) {
